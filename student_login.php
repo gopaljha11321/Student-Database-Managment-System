@@ -22,7 +22,7 @@
 		$name1="";
 		$roll_no="";
 			if(isset($_POST['submit'])){
-				$connection = mysqli_connect("localhost","root","");
+				$connection = mysqli_connect("localhost","sms","9871436400");
 				$db = mysqli_select_db($connection,"sms");
 				$query = "select * from students where email = '$_POST[email]'";
 				$query_run = mysqli_query($connection,$query);
