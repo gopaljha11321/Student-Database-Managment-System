@@ -8,7 +8,7 @@
        
         <?php
         session_start();
-        $connection = mysqli_connect("localhost","root","");
+        $connection = mysqli_connect("localhost","sms","jhaji9871436400");
         $db = mysqli_select_db($connection,"sms");
         ?>
     </head>
