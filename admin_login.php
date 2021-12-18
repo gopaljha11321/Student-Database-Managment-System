@@ -20,7 +20,7 @@
 		$email="";
 		$name="";
 			if(isset($_POST['submit'])){
-				$connection = mysqli_connect("localhost","root","");
+				$connection = mysqli_connect("localhost","sms","jhaji9871436400");
 				$db = mysqli_select_db($connection,"sms");
 				$query = "select * from login where email = '$_POST[email]'";
 				$query_run = mysqli_query($connection,$query);
